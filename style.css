@@ -1,0 +1,100 @@
+* {margin: 0; padding: 0; box-sizing: border-box;}
+
+body {
+    background-color: black;
+    color: white;
+    font-size: 4rem;
+}
+
+.cabecalho {
+    margin-top: 0.4em;
+    transition: 0.3s;
+}
+
+.cabecalho_voltar {
+    text-decoration: none;
+    color: white;
+    font-size: 32px;
+    border: 2px solid white;
+    border-radius: 8px;
+    padding: 0.5em;
+    margin-left: 4em;
+}
+
+.cabecalho_voltar:hover {
+    background-color: rgb(61, 61, 61);
+}
+
+.cabecalho:hover {
+    transform: translateY(-5%);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container_titulo {
+    margin-top: 1em;
+    cursor: default;
+}
+
+.container_botoes {
+    display: flex;
+    gap: 3em;
+    margin-top: 3em;
+    
+}
+
+.container_botao {
+    text-decoration: none;
+    color: white;
+    border: 3px solid white;
+    border-radius: 16px;
+    padding: 1em;
+    transition: 0.3s;
+}
+
+.container_botao:hover {
+    transform: translateY(-7%);
+    background-color: rgb(39, 39, 39);
+}
+
+.valores {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.valores_label {
+    margin-top: 2em;
+    font-size: 3rem;
+}
+
+.inputext {
+    padding: 1em;
+    margin-top: 3em;
+    width: 30em;
+}
+
+.valorDolarResultado {
+    margin-top: 1em;
+}
+
+.btnEnviar {
+    padding: 1em;
+    width: 15em;
+    margin-top: 2em;
+    font-size: 16px;
+    background-color: black;
+    color: white;
+    border: 3px solid white;
+    border-radius: 8px;
+}
+
+.btnEnviar:hover {
+    background-color: rgb(39, 39, 39);
+    cursor: pointer;
+}
